@@ -15,9 +15,12 @@ public class AddInput {
     
         // **** START HERE: ****
         // These two lines will get you the first two arguments 
+      
+      
         int a = Integer.parseInt(args[0]);
         int b = Integer.parseInt(args[1]);
-        int sum = 
+        int sum = a + b;
+        System.out.println("the sum of " + a + " and " + b + " is " + sum);
         
         // Print out "The sum of _ and _ is _" where you actually print the numbers they enter and the sum
 
